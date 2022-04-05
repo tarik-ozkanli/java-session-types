@@ -1,0 +1,15 @@
+@startuml test
+
+title Test some features
+
+Agent Alice #CadetBlue
+Agent Bob   #Yellow
+
+Alice -> Bob
+Bob -> Alice
+
+Bob -> Alice : Hello
+Alice -> Bob : Hi
+
+
+@enduml
